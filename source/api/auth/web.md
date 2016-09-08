@@ -46,11 +46,11 @@ wilddog.auth().createUserWithEmailAndPassword(email, pwd).then(function (user) {
 
 ```js
 for example:
-wilddog.auth().signInWithEmailAndPassword(email,pwd).then(function (a, b) { 
-    console.info("login success->", a, b);    
-    console.info("currentUser->",wilddog.auth().currentUser);
-}).catch(function (a, b) {
-    console.info('login failed ->', a, b);
+wilddog.auth().signInWithEmailAndPassword(email,pwd).then(function (user) { 
+    console.info("login success->", user);    
+    console.info("currentUser->", wilddog.auth().currentUser);
+}).catch(function (err, more) {
+    console.info('login failed ->', err, more);
 });
 ```
 
