@@ -52,8 +52,8 @@ Auth监听器会在以下情况收到通知:
    "iat": 1473131840,
    "exp": 1473131840,
    "d": {
-    "uid": "5fbb360743d26a40420cbb636b2e”,
-    “claim”:{}
+    "uid": "5fbb360743d26a40420cbb636b2e",
+    "claim":{}
   }
 }
 ```
@@ -70,7 +70,7 @@ Auth监听器会在以下情况收到通知:
     "provider_id": "anonymous", //只有匿名的时候有
     "email":"xxx@wilddog.com",
     "email_verified":false,
-    "name”:"xxx",
+    "name":"xxx",
     "picture":"http://picture.com/xxxxxx",
     "wilddog":{
         "identities": {
